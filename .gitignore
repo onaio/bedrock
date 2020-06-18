@@ -10,22 +10,16 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
-# WP-CLI
-db-sync
-sql-dump-*.sql
+# Logs
+*.log
 
 # Dotenv
 .env
 .env.*
 !.env.example
 
-# Vendor (e.g. Composer)
-vendor/*
-!vendor/.gitkeep
+# Composer
+/vendor
 
-# Node Package Manager
-node_modules
-
-# Vagrant
-bin
-.vagrant
+# WP-CLI
+wp-cli.local.yml
